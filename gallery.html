@@ -2,10 +2,72 @@
 <html>
     <head>
         <style>
-            .cssClassImage{
-                position: absolute;
+            .cssClassImageControl{
+                position: relative;
                 top: 100px;
                 left: 100px;
+                border-style: dashed;
+                border-color: red;
+                border-width: 4px;
+                width: 300px;
+                height:300px;
+                text-align:center;
+                /*vertical-align: middle;*/
+
+            }
+
+            .cssClassLeftArrow{
+                position: absolute;
+                /*
+                top: 100px;*/
+                left: 0px;
+                border-style: dashed;
+                width:10%;
+                height:300px;
+                border-color: black;
+                border-width: 4px;
+                
+            }
+            .cssClassRightArrow{
+                position: absolute;
+                /*display:inline-block;*/
+                
+                top: auto;
+                right: 0px;
+
+                
+                border-style: dashed;
+                width:20px;
+                height:100%;
+                border-color: blue;
+                border-width: 4px;
+                align: right;
+            }            
+            .cssClassArrowImage{
+                position: absolute;
+                top: 50%;
+                left: 0px;
+                width:100%;
+                height:auto;
+                z-index:100;
+                border-style: dashed;
+                border-color: green;
+                border-width: 4px;
+                opacity:50%;
+
+            }
+            .cssClassMasterPieceImage{
+                position: absolute;
+                /*top: 100px;
+                left: 100px;*/
+                /*top:50%;*/
+                width:300px;
+                height:auto;
+                border-style: dashed;
+                border-color: yellow;
+                border-width: 4px;
+                z-index:-100;
+
             }
 
         </style>
@@ -13,6 +75,14 @@
     <body>
         <H1>GALLERY OF THE MODERN ART</H1>
         <H2>directed by Mikhail A. Yunikov</H2>
-        <img src="./gallery/pic1.png" alt="here should be a picture">
+        <div class="cssClassImageControl">
+            <div class="cssClassLeftArrow">
+                <img src="./gallery/leftArroy.png" class="cssClassArrowImage" alt="here should be a picture">
+            </div>
+               <img src="./gallery/pic6.png" class="cssClassMasterPieceImage" alt="here should be a picture"> 
+            <div class="cssClassRightArrow">
+                <img src="./gallery/images.png" class="cssClassArrowImage" alt="here should be a picture">
+            </div>
+        </div>
     </body>
 </html>
