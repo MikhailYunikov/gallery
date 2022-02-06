@@ -1,0 +1,25 @@
+{
+  "name": "web_gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhailYunikov/gallery.git"
+  },
+  "keywords": [
+    "gubbi"
+  ],
+  "author": "mikhail.yunikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikhailYunikov/gallery/issues"
+  },
+  "homepage": "https://github.com/MikhailYunikov/gallery#readme",
+  "devDependencies": {
+    "eslint-plugin-html": "^6.2.0"
+  }
+}
